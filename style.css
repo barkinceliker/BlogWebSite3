@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.navbar-brand {
+    margin-right: 2em;
+  }
+  
+  .d-flex {
+    text-align: center;
+    width: 30%;
+    margin-right: 2em;
+  }
+  
+  #mynavbar {
+    float: right;
+  }
+.nav-item{
+  color:#fff;
+}
+  
+  /* Carousel */
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Card Image */
+  .card {
+    width: 15em;
+  }
+  
+  .card-img-top {
+    border-radius: 10px;
+  }
+  
+  /* About Section */
+  #About {
+    height: auto;
+    padding: 2em;
+    background-color: brown;
+  }
+/* Footer */
+#footer {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.başlık {
+  color: aliceblue;
+  padding-right: 19em;
+}
+
+.başlık2 {
+  padding-right: 15em;
+}
+
+.başlık3 {
+  margin-left: 2em;
+  color: aliceblue;
+}
+
+/* Ekran küçüldüğünde */
+@media (max-width: 768px) {
+  #footer {
+    flex-direction: column;
+  }
+
+  .başlık,
+  .başlık2,
+  .başlık3 {
+    padding-right: 0;
+    margin-left: 0;
+  }
+}
+
+
+  /* Media Queries */
+  @media (max-width: 768px) {
+    /* Navbar */
+    .navbar-brand {
+      margin-right: 1em;
+    }
+}
+    .d-flex {
+      width: 100%;
+      margin-right: 0;
+    }
+  
+    /* Card Image */
+    .card {
+      margin-bottom: 1em;
+    }
+  
+/* Footer */
+#footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2em;
+    background-color: rgb(39, 21, 106);
+  }
+  
+  .başlık {
+    color: aliceblue;
+  }
+  
+  .başlık2,
+  .başlık3 {
+    margin-left: 2em;
+    color: aliceblue;
+  }
+  
+  /* Media Queries */
+  @media (max-width: 768px) {
+    /* Navbar */
+    .navbar-brand {
+      margin-right: 1em;
+    }
+  
+    .d-flex {
+      width: 100%;
+      margin-right: 0;
+     
+    }
+  
+    /* Card Image */
+    .card {
+      margin-bottom: 1em;
+   
+     
+    }
+  
+    /* Footer */
+    #footer {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .başlık2,
+    .başlık3 {
+      margin-left: 0;
+      margin-bottom: 1em;
+    }
+  }
+/* Default Styles */
+.btn {
+    width: 10em;
+    margin-left: 30em;
+  }
+  
+/* Media Queries */
+@media (max-width: 1000px) {
+    .btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+  @media (max-width: 700px) {
+    .btn {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  
+
+
+  @media (min-width: 1000px) {
+    .btn.btn-primary {
+      float: right;
+    }
+  }
+
+ 
+  @media (min-width: 1000px) {
+    .btn.btn-primary {
+      float: right;
+    }
+ 
+  .btn.btn-success
+  {
+    float: right;
+  }
+}
+#y {
+  position: relative;
+top:40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.paragabout{
+
+color:rgb(255, 255, 255);
+}
+
+ #About{
+  display:flex;
+ background-image: url(images/panorama-2962730_1920.jpg);
+ background-size: cover;
+ }
+ .container{
+  text-align: center;
+ }
+ .title h1{
+  text-align: center;
+ }
+#Projects{
+height:120vh;
+  width:100%;
+  background-image: url(images/pen-4969580_1920.jpg);
+  background-size: cover;
+
+}
+#Projects h2{
+  color:#fff;
+}
+.title h1{
+  color:rgb(94, 13, 60);
+}
+#y{
+  background-color:#fff;
+}
+.card-title,.card-body{
+  color:black;
+}
+.navbar-nav {
+  margin-left: 80%;
+}
+
